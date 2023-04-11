@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/assets/home/background-home-desktop.jpg);
+}
+
+.logo i{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 50px;
+}
+.logo{
+    position: relative;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+
+}
+
+header{
+    font-family: 'Mohave', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+.nav ul li .chosen{
+    color: rgb(245, 244, 244);
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+  }
+
+  .nav ul li a{
+    color:  rgb(173, 163, 163);
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .nav ul li a:hover{
+    color: #fff;
+  }
+
+  .nav ul li a span{
+    color: #fff;
+  }
+
+.description{
+    margin:3rem 7rem;
+    max-width: 40%;
+}
+.description h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 160px;
+    margin: 1rem 0;
+}
+
+ .description h4{
+    font-family: 'Mohave', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(173, 163, 163);
+ }
+
+ .description p{
+    color: rgb(173, 163, 163);
+ }
+
+ .circle{
+    position: absolute;
+    background-color: #fff;
+    height: 200px;
+    text-align: center;
+    border-radius:50%;
+    width: 200px;
+    bottom: 18%;
+    right: 15%;
+    transition: all.55s ease;
+ }
+ .circle:hover{
+    transform:  translateX(-100px);
+
+ }
+
+ .circle p{
+    margin-top: 85px;
+    font-size: 30px;
+ }

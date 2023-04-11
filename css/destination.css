@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/assets/destination/background-destination-desktop.jpg);
+}
+
+.logo i{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 50px;
+}
+.logo{
+    position: relative;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+
+}
+
+header{
+    font-family: 'Mohave', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 35%;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+  }
+
+  .nav ul li a{
+    color:  rgb(173, 163, 163);
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .nav ul li a:hover{
+    color: #fff;
+  }
+
+  .nav ul li a span{
+    color: #fff;
+  }
+  .nav ul li .chosen{
+    color: rgb(245, 244, 244);
+}
+
+  main{
+    padding: 0 4rem ;
+    /* display: flex; */
+  }
+  .image img{
+   height: 50vh;
+    /* width: 50vw; */
+    position: absolute;
+    left: 20%;
+    transition: all.55s ease;
+  }
+
+  .image img:hover{
+    transform:  translateX(-100px);
+  }
+
+  .image p{
+    text-transform: uppercase;
+    font-family: 'Mohave', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    margin: 20px 0 3rem 10rem;
+  }
+  .description{
+    position: absolute;
+    right: 0%;
+    color: rgb(173, 163, 163);
+    bottom: 10%;
+    width: 40%;
+    padding: 4rem 7rem;
+  }
+
+  .description h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 4px;
+    color: #fff;
+    font-size: 90px;
+  }
+
+  .description .sub-description{
+    font-size: 18px;
+    line-height: 25px;
+    max-width: 80%;
+    margin: 1rem 0;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ffffffa9;
+  }
+  .info{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 8rem;
+  }
+  
+  .info-1 p, .info-2 p{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+
+  .title{
+    font-size: 15px;
+  }
+  .number{
+    font-size: 28px;
+  }

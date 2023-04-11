@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mohave', sans-serif;
+}
+
+body{
+    background: url(/assets/crew/background-crew-desktop.jpg);
+}
+
+.logo i{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-size: 50px;
+}
+.logo{
+    position: relative;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+
+}
+
+header{
+    font-family: 'Mohave', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 35%;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+  }
+
+  .nav ul li a{
+    color:  rgb(173, 163, 163);
+    text-decoration: none;
+    margin-left: 15px;
+  }
+
+  .nav ul li a:hover{
+    color: #fff;
+  }
+
+  .nav ul li a span{
+    color: #fff;
+  }
+  .nav ul li .chosen{
+    color: rgb(245, 244, 244);
+}
+
+main{
+    display: flex;
+    color: #fff;
+}
+
+.description{
+    margin: 2.5rem 0 0 5rem;
+}
+
+.meet{
+    font-size: 28px;
+    margin-bottom: 3.5rem;
+}
+
+.profession{
+    color: rgb(173, 163, 163);
+    font-size: 35px;
+    margin-bottom: 0.6rem;
+}
+
+.description h1{
+    font-size: 42px;
+}
+
+.meet, .description h1, .profession{
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.description p{
+    line-height: 22px;
+    font-size: 19px;
+    max-width: 65%;
+}
